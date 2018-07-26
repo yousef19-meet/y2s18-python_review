@@ -9,7 +9,7 @@ get stuck. Good luck, and have fun!
 1. Before you start coding, make sure you clone the repository for this lab:
 ```
 cd ~/Desktop
-https://github.com/meet-projects/y2s18-python_review
+git clone https://github.com/meet-projects/y2s18-python_review
 cd y2s18-python_review
 subl lab &
 ```
