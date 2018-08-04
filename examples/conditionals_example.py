@@ -7,5 +7,5 @@
 # for i in range(100):
 # 	if i % 2 == 0:
 # 		print("red")
-# 	else i % 2 == 1:
+# 	else:
 # 		print("blue")
