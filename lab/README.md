@@ -90,7 +90,7 @@ so it's just initialized with the `secret_message`. Then, write a function to ra
 key value within the range `(0, limit)`. This function should be called immediately after initialization and update the key attribute of your class.
 Hint: Consider using the `random` module, in Python for this!
 
-### Part 4: Vignere Ciphers
+### Part 4: Vigenere Ciphers
 
 The previous sections detailed how to make very basic ciphers, which just rely on the idea that, given
 the product of two large prime numbers, finding the numbers themselves is difficult. However, this
@@ -108,7 +108,7 @@ list of integers.
 2. Implement a function `transform_numbers_to_message`, which transforms a list of numbers back
 to the original message. That is, a list of the form `[0, 1, 2]` should map to the string `abc`.
 
-3. Initialize a class Vignere_Cipher, which is initialized with a string `secret_message` and an integer
+3. Initialize a class Vigenere_Cipher, which is initialized with a string `secret_message` and an integer
 value `shift`.
 
 4. Implement a function `encode`, which takes the `secret_message` and converts it into a list of numbers.
@@ -122,7 +122,7 @@ case, we actually want `a` to map to `z`. Make sure you understand why this is t
 this is to take each element in the shifted list and calculate its value mod 26. Since -1 mod 26 is 25, this
 will correctly get us a mapping of `z`.*
 
-5. Initialize a class Vignere_Decoder, which is initialized with a string `coded_message`.
+5. Initialize a class Vigenere_Decoder, which is initialized with a string `coded_message`.
 
 6. Implement a function `decode`, which tries as input a `coded_message`, tries all possible shift values,
 and prints all possible decoded_messages. You'll have to read through this output to figure out what

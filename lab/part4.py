@@ -13,7 +13,7 @@ def transform_message_to_numbers(message):
 def transform_numbers_to_message(numbers_message):
 	pass
 
-class Vignere_Cipher:
+class Vigenere_Cipher:
 
 	def __init__(self, secret_message, shift):
 		pass
@@ -22,7 +22,7 @@ class Vignere_Cipher:
 		pass
 
 
-class Vignere_Decoder:
+class Vigenere_Decoder:
 
 	def __init__(self, coded_message):
 		pass
