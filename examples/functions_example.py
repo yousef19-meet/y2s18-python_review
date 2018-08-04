@@ -10,9 +10,9 @@
 # 	# interest.
 # 	if x < 150:
 # 		x = x*1.05
-# 	if 150 <= x <= 300:
+# 	elif 150 <= x <= 300:
 # 		x = x*1.1
-# 	if x > 300:
+# 	else:
 # 		x = x*1.2
 # 	return x
 
