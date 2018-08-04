@@ -4,16 +4,6 @@ Welcome to the Python review lab! Please read all the instructions so you don't
 get lost halfway through, but definitely feel free to ask for help if you
 get stuck. Good luck, and have fun!
 
-### Part 0: Setup
-
-1. Before you start coding, make sure you clone the repository for this lab:
-```
-cd ~/Desktop
-git clone https://github.com/meet-projects/y2s18-python_review
-cd y2s18-python_review
-subl lab &
-```
-
 ### Part 1: Basic functions
 
 The stubs for these functions can be found in `part1.py`.
