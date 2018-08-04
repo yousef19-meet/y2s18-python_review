@@ -1,8 +1,6 @@
-# Create a function named is_prime, which
-# takes in a variable x, and returns whether
-# x is prime or not. To determine whether x
-# is prime, we can try dividing by every possible
-# number that's smaller than x.
+# Write your solution for 1.4 here!
 
 def is_prime(x):
 	pass
+
+is_prime(5191)
