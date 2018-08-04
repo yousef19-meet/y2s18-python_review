@@ -4,16 +4,6 @@ Welcome to the Python review lab! Please read all the instructions so you don't
 get lost halfway through, but definitely feel free to ask for help if you
 get stuck. Good luck, and have fun!
 
-### Part 0: Setup
-
-1. Before you start coding, make sure you clone the repository for this lab:
-```
-cd ~/Desktop
-git clone https://github.com/meet-projects/y2s18-python_review
-cd y2s18-python_review
-subl lab &
-```
-
 ### Part 1: Basic functions
 
 The stubs for these functions can be found in `part1.py`.
@@ -22,7 +12,7 @@ The stubs for these functions can be found in `part1.py`.
 and prints "hello world". 
 
 2. Write a function `greet_by_name` which takes in a string, `name`,
-and prints "hello <name>"
+and prints "hello </name/>"
 
 3. Write a function, `encode`, that takes in a number, `x` and computes
 the product of `x` and 3953531.
@@ -36,7 +26,8 @@ finds `x`. You may use the value 3953531 in this function.
 The stubs for these functions can be found in `part2.py`.
 
 1. First, update your function `encode`, to take in 2 numbers `x` and `y`, and compute their product.
-This function should require `0 < y < 250` and `500 < x < 1,000`. If this isn't true, the function should print `Invalid input: Outside range.`, and return None.
+This function should require `0 < y < 250` and `500 < x < 1,000`. If this isn't true, the function should print
+`Invalid input: Outside range.`, and return None.
 
 2. Update your encode function to guarantee that the inputs `x` and `y` are prime. If `x` is not prime,
 then keep incrementing the value of `x` until it is prime; then, do the same process for `y`. If this
@@ -44,10 +35,11 @@ causes the new values of `x` and `y` to be out of the range, print `Invalid inpu
 and return None.  
 *Hint: Have we implemented any functions previously, which could be useful here?*
 
-3. Write a function, `decode`, which takes in the output from your updated `encode` function
-and tries to compute values for `x` and `y`. Consider trying all possible values for `x` and `y`!
-*Hint: Consider using the mod function in Python. Recall that the mod function, which can be used by saying
-`500 % 6` returns the remainder when 500 is divided by 6.*
+3. Write a function, `decode`, which takes in the output (the value of the product)
+from your updated `encode` function and tries to compute values for `x` and `y`.
+Consider trying all possible values for `x` and `y`!
+*Hint: Consider using the mod function in Python. The mod function can be used to calculate the remainder.
+For instance, `500 % 6` returns the remainder when 500 is divided by 6.*
 
 ### Part 3: Classes
 
@@ -62,7 +54,7 @@ initialized:
 - `key`: the number we're using to hide our message (the number we multiply by!)
 - `limit`: An integer representing the maximum value that the key or message can have. We assume
 that all keys and messages must be non-negative.
-Example: (0, 1000)
+Example: 1000
 
 2. When initializing, make sure that both the `key` and `secret_message` values are not negative.
 If they are, print `Invalid input: Keys and messages cannot be negative.` Similarly, make sure that
@@ -137,4 +129,4 @@ and prints all possible decoded_messages. You'll have to read through this outpu
 the original secret message was.
 
 7. Try out your `encode` function and send your friend a coded_message. You should receive one from them, in
-return. Use your `decode` function to figure out what they're telling you~
+return. Use your `decode` function to figure out what they're telling you!
