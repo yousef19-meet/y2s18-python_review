@@ -108,7 +108,7 @@ list of integers.
 2. Implement a function `transform_numbers_to_message`, which transforms a list of numbers back
 to the original message. That is, a list of the form `[0, 1, 2]` should map to the string `abc`.
 
-3. Initialize a class Vigenere_Cipher, which is initialized with a string `secret_message` and an integer
+3. Initialize a class `VigenereCipher`, which is initialized with a string `secret_message` and an integer
 value `shift`.
 
 4. Implement a function `encode`, which takes the `secret_message` and converts it into a list of numbers.
@@ -122,7 +122,7 @@ case, we actually want `a` to map to `z`. Make sure you understand why this is t
 this is to take each element in the shifted list and calculate its value mod 26. Since -1 mod 26 is 25, this
 will correctly get us a mapping of `z`.*
 
-5. Initialize a class Vigenere_Decoder, which is initialized with a string `coded_message`.
+5. Initialize a class `VigenereDecoder`, which is initialized with a string `coded_message`.
 
 6. Implement a function `decode`, which tries as input a `coded_message`, tries all possible shift values,
 and prints all possible decoded_messages. You'll have to read through this output to figure out what
