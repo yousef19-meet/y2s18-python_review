@@ -14,4 +14,4 @@
 # i = 0
 # while i < len(my_list):
 # 	print("I like", my_list[i])
-# 	i++
+# 	i = i + 1

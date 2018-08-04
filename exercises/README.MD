@@ -71,7 +71,15 @@ the superhero will have 2 strength points left.
 is greater than the strength of the superhero, the function
 prints `Superhero is not strong enough! :(`
 
-### 1.6 Lab!
+### 1.6 Imports Review
+
+In `imports.py`, import the `random` module, from Python! The documentation
+for this module can be found here: https://docs.python.org/3/library/random.html
+
+Use the `randint` function, from the `random` module, to generate
+a random integer from 0 to 10.
+
+### 1.7 Lab!
 
 If you finish any of the previous sections early, go into the
 `lab` folder, and work on the Python Review lab!

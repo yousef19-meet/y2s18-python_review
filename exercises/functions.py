@@ -2,5 +2,3 @@
 
 def is_prime(x):
 	pass
-
-is_prime(5191)
