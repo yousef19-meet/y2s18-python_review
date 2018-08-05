@@ -12,7 +12,7 @@ When you're done, check your answers with a partner!
 
 If you finish early, check out how to print the sum of only
 the even numbers, from 1 to 100, without using an if statement!
-**Hint:** The range keyword might be useful here!
+**Hint:** The built-in range function might be useful here!
 
 ### 1.2: Conditionals Review
 
