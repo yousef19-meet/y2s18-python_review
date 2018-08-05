@@ -9,10 +9,10 @@ get stuck. Good luck, and have fun!
 The stubs for these functions can be found in `part1.py`.
 
 1. Write a function to `hello_world`, which takes in no inputs
-and prints "hello world". 
+and prints `hello world`. 
 
 2. Write a function `greet_by_name` which takes in a string, `name`,
-and prints "hello <name>"
+and prints `hello <name>`
 
 3. Write a function, `encode`, that takes in a number, `x` and computes
 the product of `x` and 3953531.
